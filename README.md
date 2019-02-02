@@ -11,7 +11,7 @@ This API returns throw queryfeed.net API to search keywords that sent from the g
 
 <https://kuje.kousakusyo.info/tools/iphone/anichecker/>
 
-!["Get JSON by twitter's feed from queryfeed.net" demo image](https://kuje.kousakusyo.info/tools/anichecker/images/20190202anichecker_review_preparation_twitter.jpg)
+!["Get JSON by twitter's feed from queryfeed.net" demo image](https://kuje.kousakusyo.info/tools/anichecker/images/github/20190202anichecker_review_preparation_twitter.jpg)
 
 ## Usage
 
