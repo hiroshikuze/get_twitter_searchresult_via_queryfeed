@@ -19,7 +19,7 @@ deleteOldFiles();
 //キャッシュは存在するか？
 if(! file_exists(TEMP_FOLDER.$q_hash.".xml")) {
     //キャッシュが存在しないなら保存
-    $original = file_get_contents("https://queryfeed.net/twitter?title-type=user-name-both&order-by=mixed&geocode=&q=".$q, false, $AGENT);
+    $original = file_get_contents("https://queryfeed.net/tw?q=".$q, false, $AGENT);
     file_put_contents(TEMP_FOLDER.$q_hash.".xml", $original);
 }
 
