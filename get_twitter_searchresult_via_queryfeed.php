@@ -9,7 +9,7 @@ if(isset($_GET["q"])) {
     $q = urlencode(htmlspecialchars($_GET["q"], ENT_QUOTES, "UTF-8"));
 } else exit;
 
-include_once("call_twitter__config.php");
+include_once("get_twitter_searchresult_via_queryfeed__config.php");
 $q_hash = hash('sha256', $q);
 $time_start = microtime(true);
 
@@ -50,7 +50,7 @@ exit;
 function deleteOldFiles()
 {
 	if(! is_dir(TEMP_FOLDER)) return;
-	
+
 	$handle = opendir(TEMP_FOLDER);
 	while(($file = readdir($handle)) !== false) {
 		$dir_file = TEMP_FOLDER . $file;

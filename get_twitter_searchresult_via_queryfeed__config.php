@@ -17,7 +17,7 @@ define("EFFECTIVE_TIME",3600);
 $AGENT = stream_context_create(
     array(
         'http'=>array(
-            'user_agent'=>'//github.com/hiroshikuze/anichecker_call_twitter/'
+            'user_agent'=>'//github.com/hiroshikuze/get_twitter_searchresult_via_queryfeed/'
         )
     )
 );
