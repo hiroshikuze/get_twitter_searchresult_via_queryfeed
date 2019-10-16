@@ -1,7 +1,6 @@
-# call_twitter
+# get_twitter_searchresult_via_queryfeed
 
 About the keyword convert Twitter feed to json using [Queryfeed](https://queryfeed.net/ "Queryfeed") API.
-I used in [anichecker](https://kuje.kousakusyo.info/tools/anichecker/ "anichecker").
 
 ## Description
 
@@ -31,7 +30,7 @@ Setting temp folder and effective time.
 
 ## Contribution
 
-1. Fork it ( http://github.com/hiroshikuze/call_twitter/fork )
+1. Fork it ( http://github.com/hiroshikuze/get_twitter_searchresult_via_queryfeed/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
