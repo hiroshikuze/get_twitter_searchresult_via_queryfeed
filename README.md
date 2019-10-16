@@ -14,9 +14,9 @@ This API returns throw queryfeed.net API to search keywords that sent from the g
 
 ## Usage
 
-Please setting 'call_twitter__config.php' before using.
+Please setting 'get_twitter_searchresult_via_queryfeed__config.php' before using.
 
-(call_twitter__config.php)
+(get_twitter_searchresult_via_queryfeed__config.php)
 Setting temp folder and effective time.
 
 (get)
